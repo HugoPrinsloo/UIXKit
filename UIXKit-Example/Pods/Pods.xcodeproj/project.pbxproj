@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CF83AB4B96BDA342F97E8918F061844 /* UIXKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD94EE21E45945FBDAA51E209BB0965 /* UIXKit-dummy.m */; };
-		4559FD7F889DC8266FBF6400F143FB04 /* Constraints+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F083909162D81094CA5A008670633 /* Constraints+Extensions.swift */; };
-		4BBF70E25CD89195D1EE916A92EB59DD /* UIXKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8176BCFBCE52CADE27501B3C3600FF2 /* UIXKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CF83AB4B96BDA342F97E8918F061844 /* UIXKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A415AECCB41B5D06E3C0577FB9104E /* UIXKit-dummy.m */; };
+		4559FD7F889DC8266FBF6400F143FB04 /* Constraints+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64931B98DFD90862E229E6368F76D4 /* Constraints+Extensions.swift */; };
+		4BBF70E25CD89195D1EE916A92EB59DD /* UIXKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C058D5BB7A793ADD14A4C0B281D11FD1 /* UIXKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FBA6EDE5665C2A7D4F8C2A4C556DEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		7AC9B435F202472054651DBC943AC72C /* Pods-UIXKit-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E6679167DB75393C72B4979F3052 /* Pods-UIXKit-Example-dummy.m */; };
 		9BB5E6DE943587A606B2FED6EB962944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -27,27 +27,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DD94EE21E45945FBDAA51E209BB0965 /* UIXKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIXKit-dummy.m"; sourceTree = "<group>"; };
+		053ACA4AC29A3886629F67E5965521AC /* UIXKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIXKit.xcconfig; sourceTree = "<group>"; };
+		07A415AECCB41B5D06E3C0577FB9104E /* UIXKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIXKit-dummy.m"; sourceTree = "<group>"; };
 		137DAF8FCEEA7EF84928B1A95676B4C3 /* Pods-UIXKit-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIXKit-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		183221BFDA05C1C01CE28C8187028E12 /* UIXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIXKit.framework; path = UIXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D7163AB85C9ACB36A794F33B9CD038D /* UIXKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIXKit.xcconfig; sourceTree = "<group>"; };
 		216009E20E925A0BD13C7A020EC53E90 /* Pods-UIXKit-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIXKit-Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A5C93B9904AE80B3D722239E1EBC95D /* UIXKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UIXKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		611E84F858C38F612631571AEBA13A70 /* UIXKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIXKit.modulemap; sourceTree = "<group>"; };
+		37A9843EB794FFBF461D13984B91D086 /* UIXKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIXKit-Info.plist"; sourceTree = "<group>"; };
 		6344088145A231B9AC823BAC5F5ADB87 /* Pods_UIXKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIXKit_Example.framework; path = "Pods-UIXKit-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4F7BCB08D411F859BC40DC47290BFF /* Pods-UIXKit-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIXKit-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		70E87CD5E45B98012BBFD23BAA51AC1C /* UIXKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIXKit-Info.plist"; sourceTree = "<group>"; };
-		7AFF40CAA2B239EC2882D8EE00CBA408 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		857AFE87E8B96A17386EC6F2254B64D3 /* Pods-UIXKit-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIXKit-Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB9F083909162D81094CA5A008670633 /* Constraints+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Constraints+Extensions.swift"; path = "UIXKit/Constraints+Extensions.swift"; sourceTree = "<group>"; };
-		C01C3A5D80FE38E4DF2082068BAD7505 /* UIXKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIXKit-prefix.pch"; sourceTree = "<group>"; };
+		AC64931B98DFD90862E229E6368F76D4 /* Constraints+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Constraints+Extensions.swift"; path = "UIXKit/Constraints+Extensions.swift"; sourceTree = "<group>"; };
+		C058D5BB7A793ADD14A4C0B281D11FD1 /* UIXKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIXKit-umbrella.h"; sourceTree = "<group>"; };
 		C563AF9E1A56C26CC7A51380DD4B1931 /* Pods-UIXKit-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIXKit-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C7EAB0029A0608E5D739D2FC16904F5C /* Pods-UIXKit-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIXKit-Example-Info.plist"; sourceTree = "<group>"; };
-		C8176BCFBCE52CADE27501B3C3600FF2 /* UIXKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIXKit-umbrella.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D24EEF21C3F4A0736121DB2C507640C6 /* Pods-UIXKit-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIXKit-Example-umbrella.h"; sourceTree = "<group>"; };
 		E0412C4B6F2087D30409FBA7349A3C39 /* Pods-UIXKit-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIXKit-Example.modulemap"; sourceTree = "<group>"; };
+		E2F2E8396C4A8F6827D4579128BBED71 /* UIXKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIXKit.modulemap; sourceTree = "<group>"; };
+		EB288C5CE5C79C4A54BE2BE2C3E091D9 /* UIXKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIXKit-prefix.pch"; sourceTree = "<group>"; };
 		F3F5E6679167DB75393C72B4979F3052 /* Pods-UIXKit-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIXKit-Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,12 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2317C90D00C021561821F183BBA258E4 /* Development Pods */ = {
+		3916DECBDC2215D01A6FADBF017E3D7A /* UIXKit */ = {
 			isa = PBXGroup;
 			children = (
-				D9A5F7ED15C53E6116B5722684020A96 /* UIXKit */,
+				AC64931B98DFD90862E229E6368F76D4 /* Constraints+Extensions.swift */,
+				B2BC8A986C403406D2EB8AE9AB80742E /* Support Files */,
 			);
-			name = "Development Pods";
+			name = UIXKit;
+			path = UIXKit;
 			sourceTree = "<group>";
 		};
 		71475000CB476C2A76F05E3DBAC6C0E6 /* Pods-UIXKit-Example */ = {
@@ -113,35 +113,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BB8D4CD545B64B3507BFFDE99C2BD0D9 /* Support Files */ = {
+		B29748F32FC299944CA6FD90D934D29F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				611E84F858C38F612631571AEBA13A70 /* UIXKit.modulemap */,
-				1D7163AB85C9ACB36A794F33B9CD038D /* UIXKit.xcconfig */,
-				0DD94EE21E45945FBDAA51E209BB0965 /* UIXKit-dummy.m */,
-				70E87CD5E45B98012BBFD23BAA51AC1C /* UIXKit-Info.plist */,
-				C01C3A5D80FE38E4DF2082068BAD7505 /* UIXKit-prefix.pch */,
-				C8176BCFBCE52CADE27501B3C3600FF2 /* UIXKit-umbrella.h */,
+				3916DECBDC2215D01A6FADBF017E3D7A /* UIXKit */,
 			);
-			name = "Support Files";
-			path = "UIXKit-Example/Pods/Target Support Files/UIXKit";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		C990DBA5F61BEBDF42619147ED1CC129 /* Pod */ = {
+		B2BC8A986C403406D2EB8AE9AB80742E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7AFF40CAA2B239EC2882D8EE00CBA408 /* LICENSE */,
-				5A5C93B9904AE80B3D722239E1EBC95D /* UIXKit.podspec */,
+				E2F2E8396C4A8F6827D4579128BBED71 /* UIXKit.modulemap */,
+				053ACA4AC29A3886629F67E5965521AC /* UIXKit.xcconfig */,
+				07A415AECCB41B5D06E3C0577FB9104E /* UIXKit-dummy.m */,
+				37A9843EB794FFBF461D13984B91D086 /* UIXKit-Info.plist */,
+				EB288C5CE5C79C4A54BE2BE2C3E091D9 /* UIXKit-prefix.pch */,
+				C058D5BB7A793ADD14A4C0B281D11FD1 /* UIXKit-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/UIXKit";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2317C90D00C021561821F183BBA258E4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B29748F32FC299944CA6FD90D934D29F /* Pods */,
 				7E3E7A2E3F7FD0DBBEBDB61A8A7257C0 /* Products */,
 				F564269AF5876ED996F0FFECE11A31ED /* Targets Support Files */,
 			);
@@ -154,17 +153,6 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
-		};
-		D9A5F7ED15C53E6116B5722684020A96 /* UIXKit */ = {
-			isa = PBXGroup;
-			children = (
-				AB9F083909162D81094CA5A008670633 /* Constraints+Extensions.swift */,
-				C990DBA5F61BEBDF42619147ED1CC129 /* Pod */,
-				BB8D4CD545B64B3507BFFDE99C2BD0D9 /* Support Files */,
-			);
-			name = UIXKit;
-			path = /Users/hugoprinsloo/Documents/UIXKit;
-			sourceTree = "<absolute>";
 		};
 		F564269AF5876ED996F0FFECE11A31ED /* Targets Support Files */ = {
 			isa = PBXGroup;
@@ -347,7 +335,7 @@
 		};
 		50B5EA4A2E71EC276603EC4EAEF79F1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D7163AB85C9ACB36A794F33B9CD038D /* UIXKit.xcconfig */;
+			baseConfigurationReference = 053ACA4AC29A3886629F67E5965521AC /* UIXKit.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -547,7 +535,7 @@
 		};
 		DDA1EA3AD987670AB6C318BC6D33552C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D7163AB85C9ACB36A794F33B9CD038D /* UIXKit.xcconfig */;
+			baseConfigurationReference = 053ACA4AC29A3886629F67E5965521AC /* UIXKit.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";

@@ -7,7 +7,7 @@ target 'UIXKit-Example' do
 
   # Pods for UIXKit-Example
 
-pod 'UIXKit', :path => '/Users/hugoprinsloo/Documents/UIXKit'
+    pod 'UIXKit', '0.0.1'
 
 
 end
