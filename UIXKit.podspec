@@ -19,11 +19,12 @@ Pod::Spec.new do |spec|
 
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+spec.platform     = :ios, "11.0"
+spec.swift_version = '4.2'
 
 
 
   spec.source       = { :git => "https://github.com/HugoPrinsloo/UIXKit.git", :tag => "0.0.1" }
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m, swift}"
+  spec.source_files  = "UIXKit/**/*.swift"
 end
