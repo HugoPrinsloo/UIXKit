@@ -1,0 +1,6 @@
+framework module Pods_UIXKit_Example {
+  umbrella header "Pods-UIXKit-Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

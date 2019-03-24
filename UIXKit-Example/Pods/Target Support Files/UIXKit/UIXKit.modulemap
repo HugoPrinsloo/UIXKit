@@ -1,0 +1,6 @@
+framework module UIXKit {
+  umbrella header "UIXKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
