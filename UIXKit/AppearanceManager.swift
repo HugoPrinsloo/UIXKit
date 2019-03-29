@@ -1,8 +1,8 @@
 //
-//  Theme.swift
-//  UIXKit-Example
+//  AppearanceManager.swift
+//  UIXKit
 //
-//  Created by Hugo Prinsloo on 2019/03/25.
+//  Created by Hugo Prinsloo on 2019/03/28.
 //  Copyright © 2019 Hugo. All rights reserved.
 //
 
@@ -83,11 +83,13 @@ public class AppearanceManager: Appearance {
             UINavigationBar.appearance().barTintColor = darkAppColors.secondaryColor
             UIButton.appearance().tintColor = darkAppColors.textColor
             UILabel.appearance().tintColor = darkAppColors.textColor
+            UIView.appearance().backgroundColor = darkAppColors.secondaryColor
         case .light:
             UINavigationBar.appearance().tintColor = lightAppColors.tintColor
             UINavigationBar.appearance().barTintColor = lightAppColors.secondaryColor
             UIButton.appearance().tintColor = lightAppColors.textColor
             UILabel.appearance().tintColor = lightAppColors.textColor
+            UIView.appearance().backgroundColor = lightAppColors.secondaryColor
         }
         refreshUI()
     }

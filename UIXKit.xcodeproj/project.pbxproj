@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6EA41070224769A700BC63B7 /* UIXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA4106E224769A700BC63B7 /* UIXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EA41077224769D100BC63B7 /* Constraints+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA41076224769D100BC63B7 /* Constraints+Extensions.swift */; };
+		6EC17B4A224D0F6800C03181 /* AppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC17B49224D0F6800C03181 /* AppearanceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		6EA4106E224769A700BC63B7 /* UIXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIXKit.h; sourceTree = "<group>"; };
 		6EA4106F224769A700BC63B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EA41076224769D100BC63B7 /* Constraints+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constraints+Extensions.swift"; sourceTree = "<group>"; };
+		6EC17B49224D0F6800C03181 /* AppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				6EA4106E224769A700BC63B7 /* UIXKit.h */,
 				6EA41076224769D100BC63B7 /* Constraints+Extensions.swift */,
+				6EC17B49224D0F6800C03181 /* AppearanceManager.swift */,
 				6EA4106F224769A700BC63B7 /* Info.plist */,
 			);
 			path = UIXKit;
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EA41077224769D100BC63B7 /* Constraints+Extensions.swift in Sources */,
+				6EC17B4A224D0F6800C03181 /* AppearanceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
